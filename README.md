@@ -8,7 +8,7 @@ git clone https://github.com/CyPH3R-ASR/exonNum.git
 
 ## Usage
 1. cd exonNum
-2. chmod 775 ExonNum.sh
-3. ./ExonNum.sh
+2. chmod 775 exonNum.sh
+3. ./exonNum.sh
 4. Enter number of Exon
 
