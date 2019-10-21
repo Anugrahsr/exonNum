@@ -1,6 +1,6 @@
 # ExonNum 
                                                              
-## Exon Number Finder v.1 
+### Exon Number Finder v.1 
 A tool to find genes of user specific exon number
 
 ## Installation
