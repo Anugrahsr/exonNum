@@ -3,6 +3,7 @@ echo " "
 echo " "
 echo "###################################################################"
 echo "	        	 ExonNum: Exon Number Finder v.1                "
+echo "	        	                    made with <3 by AnugrahSR   "
 echo "###################################################################"
 
 FILE=Homo_sapiens.GRCh38.98.gtf
