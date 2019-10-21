@@ -27,7 +27,7 @@ echo "##################################################################"
 read -p "Enter Exon  number:" number
 echo " "
 echo " "
-echo "Gene ID for "$numberb" exonic genes saved in "$number"_exonGeneID"
+echo "Gene ID for "$number" exonic genes saved in "$number"_exonGeneID"
 grep -w "$number" GeneID_Exon|awk '{print $1}' > "$number"_exonGeneID
 echo " "
 echo " "
