@@ -5,12 +5,15 @@ echo "###################################################################"
 echo "	        	 Exon Number Finder v.1                "
 echo "###################################################################"
 
+FILE=Homo_sapiens.GRCh38.98.gtf
+if [ ! -f $FILE ]; then
+    
 #Download the gtf file from ensembl
 wget ftp://ftp.ensembl.org/pub/release-98/gtf/homo_sapiens/Homo_sapiens.GRCh38.98.gtf.gz
 
 #extract using gunzip
 gunzip Homo_sapiens.GRCh38.98.gtf.gz
-
+fi
 #extracting gene ID and Exon Number
 awk '$3=="exon" {print $0}' Homo_sapiens.GRCh38.98.gtf | awk '{ count[$10]++ } END { for (word in count) print word, count[word]}' > geneID_exon
 
