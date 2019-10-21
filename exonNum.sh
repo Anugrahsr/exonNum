@@ -30,3 +30,11 @@ echo " "
 echo "#################################################################"
 echo "From biomart find the corresponding gene Name"
 #https://www.ensembl.org/biomart
+
+#Getting gene name corresponding to gene ID
+for i in `cat "$number"_exonGeneID`; do grep "$i" gene; done > "$number"_GeneList
+
+echo " "
+echo "Gene list with "$number" exon [[saved]] "$number"_GeneList "
+echo "#################################################################"
+
