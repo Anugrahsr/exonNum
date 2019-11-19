@@ -4,7 +4,7 @@
 A tool to find genes of user specific exon number
 
 ## Installation
-git clone https://github.com/CyPH3R-ASR/exonNum.git
+git clone https://github.com/Anugrahsr/exonNum.git
 
 ## Usage
 1. cd exonNum
